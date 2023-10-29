@@ -1,0 +1,28 @@
+{
+    "name": "raim/posts",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "raim",
+        "email": "rako2002@mail.ru"
+      }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Raim\\Posts\\": "src" 
+        }
+    },
+    "extra": {
+        "laravel": { 
+            "providers": [
+                "Raim\\Posts\\Providers\\PostsServiceProvider"
+            ]
+        }
+    }
+  }
+  
